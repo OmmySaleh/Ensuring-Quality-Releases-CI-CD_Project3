@@ -1,6 +1,6 @@
-subscription_id = "fbf787c1-ed83-44ad-946e-6ff3b027c400"
-client_id = "28d7ead0-50db-4c06-a3b6-49135aae6cef"
-client_secret = "HBs8Q~KAHIBW3YnGWXoySu2XGEQ7OrinEEjk2cao"
+subscription_id = "0c7436df-9359-4a04-b572-96ab6d89334c"
+client_id = "0dee3097-07c3-4f3b-b895-ccee1d3bdcff"
+client_secret = "Slk8Q~.wosAzTrrzFoxRCn17vR_Tk04mmUWtvdr~"
 tenant_id = "f958e84a-92b8-439f-a62d-4f45996b6d07"
 
 location = "SouthCentralUS"
