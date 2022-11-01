@@ -59,13 +59,13 @@ az ad sp create-for-rbac --name ensuring-quality-releases-sp --role="Contributor
 
 Details below will be generated
 
-'''{
+''{
   "appId": "00000000-0000-0000-0000-000000000000",
   "displayName": "azure-cli-2017-06-05-10-41-15",
   "name": "http://azure-cli-2017-06-05-10-41-15",
   "password": "0000-0000-0000-0000-000000000000",
   "tenant": "00000000-0000-0000-0000-000000000000"
-}'''
+}''
 
 Create a config.sh file inside terraform directory, Cd inside the terraform directory and run
 
