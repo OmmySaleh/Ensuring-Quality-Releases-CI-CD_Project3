@@ -30,13 +30,13 @@ Flowchart of the whole process
 <img width="874" alt="Screenshot 2022-11-01 at 08 38 35" src="https://user-images.githubusercontent.com/110615576/199185225-f43283ac-21bf-4034-9e66-796262314a35.png">
 
 
-#Prerequisite
+# Prerequisite
 
 Azure Account
 Azure Command Line Interface
 Azure DevOps Account
 
-#Project Dependencies
+# Project Dependencies
 
 Terraform
 JMeter
@@ -59,13 +59,13 @@ az ad sp create-for-rbac --name ensuring-quality-releases-sp --role="Contributor
 
 Details below will be generated
 
-{
+'''{
   "appId": "00000000-0000-0000-0000-000000000000",
   "displayName": "azure-cli-2017-06-05-10-41-15",
   "name": "http://azure-cli-2017-06-05-10-41-15",
   "password": "0000-0000-0000-0000-000000000000",
   "tenant": "00000000-0000-0000-0000-000000000000"
-}
+}'''
 
 Create a config.sh file inside terraform directory, Cd inside the terraform directory and run
 
