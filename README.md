@@ -118,6 +118,8 @@ After a successful Deployment, it should look like in the following screenshot:
 
 <img width="1440" alt="DeployedWebApp" src="https://user-images.githubusercontent.com/110615576/199212903-ce5178f5-5f5e-4368-a4a4-e5a41ebb9c41.png">
 
+<img width="1440" alt="App" src="https://user-images.githubusercontent.com/110615576/199230035-f0d6bcf6-31da-419c-8478-78aba0a3dcf7.png">
+
 <img width="1440" alt="WebApp" src="https://user-images.githubusercontent.com/110615576/199213128-c1178335-fdb9-41ee-8fc2-246aee8b56c0.png">
 
 <img width="1440" alt="Swagger" src="https://user-images.githubusercontent.com/110615576/199213278-bf38a986-0750-49dc-bb27-28a70f96d4b3.png">
