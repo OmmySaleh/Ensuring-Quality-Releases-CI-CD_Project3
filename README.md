@@ -161,6 +161,13 @@ After a successful Deployment, it should look like in the following screenshot:
 
 <img width="1440" alt="Screenshot 2022-11-01 at 01 05 59" src="https://user-images.githubusercontent.com/110615576/199216319-96e64f13-6d46-43e0-8808-242540d4d783.png">
 
+<img width="1440" alt="ResultsEndurance" src="https://user-images.githubusercontent.com/110615576/199238139-2baa4b2a-27c2-4417-a177-1cb59b4039c8.png">
+
+
+<img width="1440" alt="TestReport" src="https://user-images.githubusercontent.com/110615576/199237908-039e0613-f2cd-435c-800a-07cf191e984a.png">
+
+<img width="1440" alt="TestReport1" src="https://user-images.githubusercontent.com/110615576/199238045-7956608c-bb19-4e43-9f29-9a93e2645892.png">
+
 <img width="1440" alt="TestRuns" src="https://user-images.githubusercontent.com/110615576/199216423-828f8f77-2515-4a5b-9736-af8f0d1c9fe2.png">
 
 
