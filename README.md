@@ -51,7 +51,7 @@ Selenium
 
 Login to the Azure account
 
-'''az login''' 
+''' az login ''' 
 
 Create service principal or use the one your already have (In my case I used the provided service principal by Udacity Lab) 
 
