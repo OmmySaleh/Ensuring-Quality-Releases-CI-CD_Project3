@@ -2,12 +2,12 @@
 
 ## Ensuring Quality Releases using Azure CI/CD Pipeline
 
-Project objectives
+# Project objectives
 The project illustrates building a CI/CD pipeline with Azure DevOps
 
-Status badge
+# Status badge
 
-Contents
+# Contents
 
 The project comprise of a CI/CD pipeline with four stages.
 
@@ -21,18 +21,20 @@ Performance tests with Jmeter
 
 
 
-Introduction
+# Introduction
+
 This project uses Azure DevOps to build a CI/CD pipeline that creates disposable test environments and runs a variety of automated tests to ensure quality releases. It uses Terraform to deploy the infrastructure, Azure App Services to host the web application and Azure Pipelines to provision, build, deploy and test the project. The automated tests run on a self-hosted virtual machine (Linux) and consist of: UI Tests with selenium, Integration Tests with postman, Stress Test and Endurance Test with jmeter. Additionally, it uses an Azure Log Analytics workspace to monitor and provide insight into the application's behavior.
+
 <img width="874" alt="Screenshot 2022-11-01 at 08 38 35" src="https://user-images.githubusercontent.com/110615576/199185225-f43283ac-21bf-4034-9e66-796262314a35.png">
 
 
-Prerequisite
+#Prerequisite
 
 Azure Account
 Azure Command Line Interface
 Azure DevOps Account
 
-Project Dependencies
+#Project Dependencies
 
 Terraform
 JMeter
@@ -40,7 +42,7 @@ Postman
 Python
 Selenium
 
-Steps taken
+# Steps taken
 
 1. Download the Project Starter file provited.
 2. Open it in your preferred code editor (Using PyCharm in my case)
@@ -67,7 +69,22 @@ Create a config.sh file inside terraform directory, Cd inside the terraform dire
 
 bash config.sh
 
-Create an azsecret.conf which will contains variables to be uploaded and use our pipeline as group variable
+Create an azsecret.conf which will have variables to be uploaded and use the pipeline as group variable
 
 Go to your local terminal and create SSH key that the VM will use to Login, A public key (id_rsa.pub) and A private key (id_rsa) will be created and save.
+
+cd ~/.ssh/
+
+ssh-keygen -t rsa -b 4096 -f az_eqr_id_rsa
+
+# Azure Pipeline
+
+# Setting up Azure Pipeline
+
+You have to install terrafrom extention
+
+<img width="725" alt="Screenshot 2022-11-01 at 09 18 23" src="https://user-images.githubusercontent.com/110615576/199189526-7a2e420e-81b3-4f04-a86e-255d09cbe893.png">
+
+
+
 
