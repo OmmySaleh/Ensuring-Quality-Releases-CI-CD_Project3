@@ -7,6 +7,8 @@ The project illustrates building a CI/CD pipeline with Azure DevOps
 
 # Status badge
 
+https://github.com/OmmySaleh/Udacity_Project3/actions/workflows/azure-pipelines.yaml/badge.svg
+
 # Contents
 
 The project comprise of a CI/CD pipeline with four stages.
